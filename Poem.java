@@ -16,4 +16,9 @@ public class Poem {
         return poet;
     }
 
+    @Override
+    public String toString() {
+        return "Poem: " + name + ", Poets: " + poet;
+    }
+
 }
